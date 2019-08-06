@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header .main-heading{
+    padding-top: 7px;
+    font-family: "lucida handwriting";
+}
+#page-footer{
+    color: white;
+    background-color: black;
+    margin-top: 25px;
+    padding: 15px;
+} 
+@media screen and (min-width: 500px){
+    img.img-circle{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+#dream{
+        font-style: italic; 
+        color: black;
+}
+@keyframes header .main-heading {
+        from {background-color: red;}
+        to {background-color: yellow;}
+}
+ div    header .main-heading {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: example;
+            animation-duration: 4s;
+ }
